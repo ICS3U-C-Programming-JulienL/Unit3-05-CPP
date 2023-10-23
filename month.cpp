@@ -11,62 +11,63 @@ int main() {
     int monthNumber;
 
     // get the user integer
-    std::cout << "This program shows numbers represented as months.";
-    std::cout << "ex. 1 represents January.";
-    std::cout<< "Enter a number : ";
+    std::cout << "This program shows numbers represented as months";
+    std::cout << " (ex. 1 represents January).";
+    std::cout<< " Enter a number : ";
     std::cin >> monthNumber;
 
     // use a switch case to show what numbers the months are represented by
     switch (monthNumber) {
         case 1 :
-            std::cout << monthNumber << " represents January.";
+            std::cout << monthNumber << " represents January. \n";
             break;
 
         case 2:
-            std::cout << monthNumber << " represents February.";
+            std::cout << monthNumber << " represents February. \n";
             break;
 
         case 3:
-            std::cout << monthNumber << " represents March.";
+            std::cout << monthNumber << " represents March. \n";
             break;
 
         case 4:
-            std::cout << monthNumber << " represents April.";
+            std::cout << monthNumber << " represents April. \n";
             break;
 
         case 5:
-            std::cout << monthNumber << " represents May.";
+            std::cout << monthNumber << " represents May. \n";
             break;
 
         case 6:
-            std::cout << monthNumber << " represents June.";
+            std::cout << monthNumber << " represents June. \n";
             break;
 
         case 7:
-            std::cout << monthNumber << " represents July.";
+            std::cout << monthNumber << " represents July. \n";
             break;
 
         case 8:
-            std::cout << monthNumber << " represents August.";
+            std::cout << monthNumber << " represents August. \n";
             break;
 
         case 9:
-            std::cout << monthNumber << " represents September.";
+            std::cout << monthNumber << " represents September. \n";
             break;
 
         case 10:
-            std::cout << monthNumber << " represents October.";
+            std::cout << monthNumber << " represents October. \n";
             break;
 
         case 11:
-            std::cout << monthNumber << " represents November.";
+            std::cout << monthNumber << " represents November. \n";
             break;
 
         case 12:
-            std::cout << monthNumber << " represents December.";
+            std::cout << monthNumber << " represents December. \n";
             break;
 
         // tell the user to enter an int between 1 and 12 if they did otherwise
-        std::cout << "Please enter a number between 1 and 12." << std::endl;
+        std::cout << "Please enter a number between 1 and 12. \n"
+        << std::endl;
     }
 }
