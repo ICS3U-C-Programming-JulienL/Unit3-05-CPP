@@ -10,7 +10,7 @@ int main() {
     // declare variables
     int monthNumber;
 
-    // get the user integer
+    // get the month number
     std::cout << "This program shows numbers represented as months";
     std::cout << " (ex. 1 represents January).";
     std::cout<< " Enter a number : ";
