@@ -67,7 +67,8 @@ int main() {
             break;
 
         // tell the user to enter an int between 1 and 12 if they did otherwise
-        std::cout << "Please enter a number between 1 and 12. \n"
+        default :
+        std::cout << "Please enter an integer between 1 and 12. \n"
         << std::endl;
     }
 }
